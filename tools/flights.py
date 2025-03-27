@@ -1,5 +1,5 @@
 import requests
-from pydantic_models import FlightSearchRequest, FlightSearchResponse, FlightOption
+from .pydantic_models import FlightSearchRequest, FlightSearchResponse, FlightOption
 
 # Replace with your actual Amadeus API credentials
 API_KEY = "9jjmOUCJuaJV4fhWJntJugcbYSvmt5lU"

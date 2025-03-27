@@ -1,5 +1,9 @@
 import requests
-from pydantic_models import HotelSearchRequest, HotelSearchResponse, HotelOption
+from .pydantic_models import HotelSearchRequest, HotelSearchResponse, HotelOption
+
+# Replace with your actual Amadeus API credentials
+API_KEY = "9jjmOUCJuaJV4fhWJntJugcbYSvmt5lU"
+API_SECRET = "iX5PadqYsoVa40M7"
 
 def search_hotels(request_data: HotelSearchRequest) -> HotelSearchResponse:
     """
